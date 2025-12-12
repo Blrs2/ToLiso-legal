@@ -23,7 +23,7 @@ O Aplicativo solicita a permissão `BIND_NOTIFICATION_LISTENER_SERVICE`. Conform
 ### 1.3. Dados Financeiros Locais
 Seus registros de ganhos, gastos e categorias são armazenados localmente no dispositivo utilizando a tecnologia **Android Room Database**.
 
-#### **1.4. Uso de Microfone e Áudio (Interação com IA)**
+### 1.4. Uso de Microfone e Áudio (Interação com IA)
 [cite_start]O aplicativo solicita a permissão `RECORD_AUDIO` [cite: 4] exclusivamente para permitir que você interaja com o "Tutor Financeiro" através de comandos de voz.
 * [cite_start]**Processamento:** O áudio capturado é convertido em texto ou enviado para processamento pela API do **Google Gemini (Firebase AI)** [cite: 2] para interpretar sua dúvida financeira.
 * **Armazenamento:** O aplicativo **não** armazena gravações de voz permanentemente. O áudio é processado de forma efêmera apenas para a execução do comando imediato no chat.
