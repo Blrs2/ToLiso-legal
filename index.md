@@ -24,8 +24,8 @@ O Aplicativo solicita a permissão `BIND_NOTIFICATION_LISTENER_SERVICE`. Conform
 Seus registros de ganhos, gastos e categorias são armazenados localmente no dispositivo utilizando a tecnologia **Android Room Database**.
 
 ### 1.4. Uso de Microfone e Áudio (Interação com IA)
-[cite_start]O aplicativo solicita a permissão `RECORD_AUDIO` [cite: 4] exclusivamente para permitir que você interaja com o "Tutor Financeiro" através de comandos de voz.
-* [cite_start]**Processamento:** O áudio capturado é convertido em texto ou enviado para processamento pela API do **Google Gemini (Firebase AI)** [cite: 2] para interpretar sua dúvida financeira.
+O aplicativo solicita a permissão `RECORD_AUDIO` [cite: 4] exclusivamente para permitir que você interaja com o "Tutor Financeiro" através de comandos de voz.
+* **Processamento:** O áudio capturado é convertido em texto ou enviado para processamento pela API do **Google Gemini (Firebase AI)** [cite: 2] para interpretar sua dúvida financeira.
 * **Armazenamento:** O aplicativo **não** armazena gravações de voz permanentemente. O áudio é processado de forma efêmera apenas para a execução do comando imediato no chat.
 
 
@@ -48,7 +48,7 @@ Não vendemos seus dados. Compartilhamos informações estritamente com os prove
 
 ## 4. Exclusão de Dados e Direitos do Usuário
 
-[cite_start]Respeitamos a sua autonomia sobre os dados, que são armazenados primariamente no seu dispositivo ("Local First") utilizando o banco de dados **AppDatabase (Room)**[cite: 1].
+Respeitamos a sua autonomia sobre os dados, que são armazenados primariamente no seu dispositivo ("Local First") utilizando o banco de dados **AppDatabase (Room)**[cite: 1].
 
 * **Exclusão Parcial (Sem excluir a conta):** Como os dados financeiros residem no seu dispositivo, você possui total liberdade para excluir transações individuais, categorias ou limpar o armazenamento do app através das configurações do Android a qualquer momento, sem a necessidade de excluir sua conta de login.
 Em conformidade com a LGPD e GDPR, você tem total controle sobre seus dados. O aplicativo possui uma funcionalidade nativa de **Exclusão de Conta** (`AuthViewModel.deleteAccount`), acessível nas configurações, que executa as seguintes ações irreversiveis:
