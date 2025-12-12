@@ -1,9 +1,3 @@
-Aqui estão a **Política de Privacidade** e a **Política de Reembolso** elaboradas sob medida para o seu aplicativo, observando rigorosamente o código-fonte fornecido (`AnalisarGastosAgent.kt`, `AuthViewModel.kt`, `NotificationService.kt`, `BillingManager.kt` e `build.gradle.kts`).
-
-Estes documentos estão em conformidade com a **LGPD (Brasil)**, **GDPR (Europa)** e as **Políticas de Dados do Usuário e Comportamento Enganoso da Google Play Store**.
-
----
-
 # POLÍTICA DE PRIVACIDADE E TERMOS DE USO
 
 **Última atualização:** 11 de dezembro de 2025
